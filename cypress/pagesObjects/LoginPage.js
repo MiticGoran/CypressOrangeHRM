@@ -4,8 +4,8 @@ class LoginPage
 
     setUserName(username)
     {
-       // cy.get("//input[@name='username']").type(username);
-       cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type(username);
+       cy.xpath("//input[@name='username']").type(username);
+       //cy.get(':nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-input').type(username);
     }
 
     setPassword(password)
