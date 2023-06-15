@@ -1,5 +1,7 @@
 import LoginPage from "../pagesObjects/LoginPage"
 import BasePage from "../pagesObjects/BasePage";
+
+
 const loginPage = new LoginPage();
 const basePage = new BasePage();
 

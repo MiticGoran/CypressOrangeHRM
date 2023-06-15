@@ -2,7 +2,7 @@ class BasePage
 {
     goToBaseUrl()
     {
-        cy.visit('https://opensource-demo.orangehrmlive.com/');
+        cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
     }
 }
 
